@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCheatsheet.css">
+    <title>CSS Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="finalProject.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="hobbyAndInterest.html">Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>1. Universal Selector</h2>
+    <div class="code-container">
+        <code>
+            * {
+            <br>
+            margin: 0;
+            <br>
+            padding: 0;
+            <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>2. Element Selector</h2>
+    <div class="code-container">
+        <code>
+            p {
+                <br>
+                color: blue;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>3. Class Selector</h2>
+    <div class="code-container">
+        <code>
+            .highlight {
+                <br>
+                background-color: yellow;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>4. ID Selector</h2>
+    <div class="code-container">
+        <code>
+            #header {
+                <br>
+                font-size: 24px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>5. Declaration</h2>
+    <div class="code-container">
+        <code>
+            body {
+                <br>
+                font-family: 'Arial', sans-serif;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>6. Color Representation</h2>
+
+    <h3>Keywords</h3>
+    <div class="code-container">
+        <code>
+            h1 {
+                <br>
+                color: crimson;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Hexadecimal</h3>
+    <div class="code-container">
+        <code>
+            .container {
+                <br>
+                border: 1px solid #333;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>RGB Function</h3>
+    <div class="code-container">
+        <code>
+            .box {
+                <br>
+                background-color: rgb(100, 150, 200);
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>7. Box Model</h2>
+
+    <h3>Width & Height</h3>
+    <div class="code-container">
+        <code>
+            .box {
+                <br>
+                width: 200px;
+                <br>
+                height: 150px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Padding</h3>
+    <div class="code-container">
+        <code>
+            .content {
+                <br>
+                padding: 10px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Border</h3>
+    <div class="code-container">
+        <code>
+            .container {
+                <br>
+                border: 1px solid #ccc;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Margin</h3>
+    <div class="code-container">
+        <code>
+            .element {
+                <br>
+                margin: 10px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>8. Box Sizing</h2>
+
+    <h3>Example</h3>
+    <div class="code-container">
+        <code>
+            .box {
+                <br>
+                box-sizing: border-box;
+                <br>
+                width: 100%;
+                <br>
+                padding: 20px;
+                <br>
+                border: 2px solid #333;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>9. Text Styling</h2>
+
+    <h3>Font Size</h3>
+    <div class="code-container">
+        <code>
+            h2 {
+                <br>
+                font-size: 18px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Font Family</h3>
+    <div class="code-container">
+        <code>
+            body {
+                <br>
+                font-family: 'Helvetica', sans-serif;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Font Weight</h3>
+    <div class="code-container">
+        <code>
+            strong {
+                <br>
+                font-weight: bold;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Text Color</h3>
+    <div class="code-container">
+        <code>
+            p {
+                <br>
+                color: #666;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Text Alignment</h3>
+    <div class="code-container">
+        <code>
+            .center-text {
+                <br>
+                text-align: center;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>10. Positioning</h2>
+
+    <h3>Example</h3>
+    <div class="code-container">
+        <code>
+            .element {
+                <br>
+                position: relative;
+                <br>
+                top: 20px;
+                <br>
+                left: 10px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>11. Flexbox</h2>
+
+    <h3>Flex Container</h3>
+    <div class="code-container">
+        <code>
+            .flex-container {
+                <br>
+                display: flex;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Flex Items</h3>
+    <div class="code-container">
+        <code>
+            .flex-item {
+                <br>
+                flex: 1;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>12. Grid</h2>
+
+    <h3>Grid Container</h3>
+    <div class="code-container">
+        <code>
+            .grid-container {
+                <br>
+                display: grid;
+                <br>
+                grid-template-columns: 1fr 1fr 1fr;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Grid Items</h3>
+    <div class="code-container">
+        <code>
+            .grid-item {
+                <br>
+                grid-column: span 2;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>13. Transitions and Animations</h2>
+
+    <h3>Transitions</h3>
+    <div class="code-container">
+        <code>
+            .box {
+                <br>
+                transition: background-color 0.3s ease-in-out;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Animations</h3>
+    <div class="code-container">
+        <code>
+            @keyframes slide-in {
+                <br>
+                from {
+                    transform: translateX(-100%);
+                }
+                <br>
+                to {
+                    transform: translateX(0);
+                }
+                <br>
+            }
+            <br>
+            .slider {
+                <br>
+                animation: slide-in 1s ease-in-out;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>14. Responsive Design</h2>
+
+    <h3>Media Queries</h3>
+    <div class="code-container">
+        <code>
+            @media screen and (max-width: 600px) {
+                <br>
+                body {
+                    font-size: 14px;
+                }
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>15. Pseudo-classes and Pseudo-elements</h2>
+
+    <h3>Pseudo-classes</h3>
+    <div class="code-container">
+        <code>
+            a:hover {
+                <br>
+                color: purple;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h3>Pseudo-elements</h3>
+    <div class="code-container">
+        <code>
+            p::first-line {
+                <br>
+                font-weight: bold;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>16. Units</h2>
+
+    <h3>Common Units</h3>
+    <div class="code-container">
+        <code>
+            .box {
+                <br>
+                width: 50%;
+                <br>
+                margin: 10px;
+                <br>
+                font-size: 16px;
+                <br>
+            }
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <h2>17. Comments</h2>
+
+    <h3>Example</h3>
+    <div class="code-container">
+        <code>
+            /* This is a comment */
+        </code>
+        <button class="copy-code-btn" onclick="copyCode(this)">Copy Code</button>
+    </div>
+
+    <script src="scriptCheatsheet.js" defer></script>
+
+</body>
+</html>
+
