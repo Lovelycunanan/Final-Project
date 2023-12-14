@@ -42,15 +42,22 @@ h1 {
     color: #0F2C59;
 }
 
-p, ul {
+p {
     line-height: 1.6;
 }
 
-ul {
-    list-style: none;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-ul li {
-    margin-bottom: 10px;
+th, td {
+    border: 1px solid #DAC0A3;
+    padding: 8px;
+    text-align: center;
 }
 
+th {
+    background-color: #DAC0A3;
+}
