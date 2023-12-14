@@ -4,7 +4,7 @@ function copyCode(button) {
   
     navigator.clipboard.writeText(codeText)
       .then(() => {
-        // Provide feedback to the user (e.g., change button text)
+        // Tells user when the code is copied 
         button.innerText = 'Code Copied!';
         setTimeout(() => {
           button.innerText = 'Copy Code';
